@@ -1,13 +1,13 @@
 /**
- * Sequential implementation of DBScan clustering method
+ * Parallel implementation of DBScan clustering method
  * 
- * @file dbscan.cpp
+ * @file dbscan.cu
  * @author Matteo De Filippis / Michele Andreata
- * @version 0.2
+ * @version 0.1
  * 
  */
 
-#include "../../utils/dbscan_utils.cpp"
+#include "../../utils/dbscan_utils.cu"
 
 int main(int argc, const char* argv[]) {
     if (argc != 4) {
